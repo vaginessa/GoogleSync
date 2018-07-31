@@ -1,4 +1,4 @@
-package com.spisoft.sync.wrappers.googledrive;
+package com.spisoft.gsync.wrappers.googledrive;
 
 import android.app.Activity;
 import android.content.Context;
@@ -76,7 +76,7 @@ public class GDriveWrapper extends Wrapper {
 
     @Override
     public void startAuthorizeActivityForResult(Activity activity, int requestCode) {
-        activity.startActivityForResult(new Intent(activity, com.spisoft.sync.wrappers.googledrive.AuthorizeActivity.class),0);
+        activity.startActivityForResult(new Intent(activity, com.spisoft.gsync.wrappers.googledrive.AuthorizeActivity.class),0);
     }
 
     @Override

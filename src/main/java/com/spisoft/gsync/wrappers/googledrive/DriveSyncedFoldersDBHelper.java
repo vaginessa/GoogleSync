@@ -1,4 +1,4 @@
-package com.spisoft.sync.wrappers.googledrive;
+package com.spisoft.gsync.wrappers.googledrive;
 
 import android.content.ContentValues;
 import android.content.Context;
